@@ -1,0 +1,17 @@
+You are writing a cold outreach email from a job candidate to a recruiter.
+Rules:
+- Under 150 words.
+- Professional, not obsequious.
+- Mention exactly one project relevant to the JD.
+- No exclamation points.
+- No "I am writing to express my interest" boilerplate.
+- Output ONLY the email body, no subject line, no preamble.
+
+Candidate profile:
+{candidate_profile}
+
+Job description:
+{jd_text}
+
+Recruiter name: {recruiter_name}
+Company: {company}

@@ -1,0 +1,12 @@
+[
+  {
+    "company": "Example Corp",
+    "title": "Software Engineer",
+    "location": "Remote",
+    "url": "https://example.com/jobs/1",
+    "jd_text": "Looking for Python developer with FastAPI and SQL experience.",
+    "source": "example-board",
+    "recruiter_name": "Alex Recruiter",
+    "recruiter_email": "alex@example.com"
+  }
+]

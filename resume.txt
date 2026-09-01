@@ -1,0 +1,2 @@
+Software engineer with experience building Python APIs, automation pipelines, and data-backed products.
+Worked on FastAPI, SQL databases, CI/CD workflows, and LLM integrations.

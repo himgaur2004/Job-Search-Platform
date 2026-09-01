@@ -1,0 +1,93 @@
+# ==========================================
+# Environment Variables, Secrets & Credentials
+# ==========================================
+.env
+.env.*
+!.env.example
+*.env
+client_secret*.json
+credentials*.json
+token*.json
+token*.pickle
+service_account*.json
+
+# ==========================================
+# Databases & Local Storage
+# ==========================================
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+*.db-wal
+*.db-shm
+database.db
+data.db
+job_agent.db
+
+# ==========================================
+# Logs & Temp Files
+# ==========================================
+*.log
+logs/
+temp_*
+scratch_*.txt
+*.tmp
+
+# ==========================================
+# Python Virtual Environments & Cache
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+ENV/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+dist/
+build/
+*.egg-info/
+
+# ==========================================
+# Node.js & Next.js (Dashboard)
+# ==========================================
+node_modules/
+dashboard/node_modules/
+.next/
+dashboard/.next/
+dashboard/out/
+dashboard/build/
+dashboard/.vercel
+*.tsbuildinfo
+
+# ==========================================
+# Personal Documents & Local Artifacts
+# ==========================================
+*.xlsx
+*.xls
+*.pdf
+resume_out.*
+*.html
+!templates/**/*.html
+oracle.png
+*.png
+!dashboard/public/**/*.png
+!public/**/*.png
+
+# ==========================================
+# Operating System & IDE
+# ==========================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+.vscode/
+.idea/
+*.code-workspace
